@@ -6,7 +6,7 @@ function clicar(){
 
     if(btn1 = clicar){
         document.querySelector('div.cdc').style.display = 'none'
-        console.log("MEU PAU")
+        
     } 
    
 }

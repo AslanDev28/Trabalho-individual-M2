@@ -1,18 +1,35 @@
 
 /*BOX FORMULARIO*/
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 15px groove rgba(146, 24, 177, 0.884);
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgb(90, 90, 90), rgb(0, 0, 0), rgb(59, 58, 58));
+}
+
 .box {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .box1, .box2 {
     display: inline-block;
+    margin: 20px;
+    
 }
 /*BOX FORMULARIO*/
 
 #btn1 {
+    margin-bottom: 5px;
     padding: 8px;
     width: 50%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -24,6 +41,7 @@
 
 
 #btn2 {
+    margin-bottom: 5px;
     padding: 8px;
     margin-left: 81%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -44,7 +62,8 @@ legend {
     
     font: 15pt arial;
     color: rgb(255, 255, 255);
-    background-color: blueviolet;
+    text-shadow: 2px 2px 8px rgba(241, 241, 241, 0.849);
+    background-color: rgba(125, 39, 206, 0.781);
     border: 2px solid rgb(219, 219, 219);
     border-radius: 8px;
     padding: 7px;
