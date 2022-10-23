@@ -1,0 +1,199 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*CABECALHO*/
+
+header > h1 {
+    text-align: center;
+    text-shadow: 1px 1px 15px rgba(73, 228, 12, 0.87);
+    font-family: 'tech', Helvetica, sans-serif;
+    font-size: 2.5em;
+    padding: 50px;
+    background-image: linear-gradient(to bottom, rgb(32, 32, 32), rgb(0, 0, 0));
+    border-radius: 0px 0px 40px 40px;
+    border-bottom: 2px groove rgba(14, 153, 14, 0.425);
+    animation: fadeIn 1.2s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translateY(-80%);
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@font-face {
+    font-family: 'tech'; 
+    src: url(Fontes/OriginTech\ personal\ use.ttf) format('TrueType');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+
+    background-image: url(Imagens/Papel\ de\ parede\ com\ alienígena\ paz\ e\ amor\ ilustrado\ cinza.png);
+    
+    
+}
+
+/*BOX FORMULARIO*/
+
+#box {
+    right: 54%;
+    top: 40%;
+    position: absolute;
+    
+}
+
+#box2 {
+    left: 47%;
+    top: 40%;
+    position: absolute;
+    width: 49%;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'tech';
+    color: rgb(164, 165, 167);
+}
+
+
+.img1 {
+   margin-left: 47%;
+   margin-top: 5px;
+   
+}
+
+.l2 {
+    font-family: 'tech', Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow:1px 0px 10px rgb(73, 228, 12) ;
+    background-color: rgb(3, 2, 2);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: right;
+}
+
+.l1 {
+    font-family: 'tech', Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow:1px 0px 10px rgb(73, 228, 12) ;
+    background-color: rgb(3, 2, 2);
+    border-radius: 8px;
+    padding: 10px;
+}
+/*MENSAGEM*/
+textarea {
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+#texto1, #texto2, #texto3, #texto4 {
+    margin-left: 5px;
+    padding: 5px;
+    width: 24%;
+    margin: auto;
+}
+
+#texto2, #texto4 {
+    width: 22%;
+}
+
+.square {
+    display: flex;
+    flex-direction: row;
+    
+}
+.square2 {
+    display: flex;
+    flex-direction: row;
+}
+
+/*BUTTONS*/
+.btn1 {
+    background-image: linear-gradient(to bottom, rgb(32, 32, 32), rgb(0, 0, 0));
+    color: aliceblue;
+    font: 13pt arial;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    
+}
+.btn1:hover {
+    background-color: rgb(4, 39, 4);
+    color: rgb(10, 141, 10);
+    transform: scale(1.1);
+    transition: all .1s linear;
+}
+
+.btn2 {
+    background-image: linear-gradient(to bottom, rgb(32, 32, 32), rgb(0, 0, 0));
+    color: aliceblue;
+    font: 13pt arial;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+.btn2:hover {
+    background-color: rgb(4, 39, 4);
+    color: rgb(10, 141, 10);
+    transform: scale(1.1);
+    transition: all .1s linear;
+}
+
+.btn1 , .btn2 {
+    cursor: pointer;
+}
+
+/*BOX FORMULARIO*/
+
+
+.box , fieldset {
+    align-items: center;
+    padding: 30px;
+    margin-left: 10%;
+    background-image: linear-gradient(to bottom, rgb(29, 28, 28), rgb(66, 66, 66), rgb(0, 0, 0));
+    border-radius: 8px;
+    border-color: rgba(219, 219, 219, 0.329);
+}
+
+/*RODAPE*/
+
+.rodape {
+    text-align: center;
+    margin-top: 65%;
+    color: rgb(123, 125, 126);
+    font: 11pt arial;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(32, 32, 32)); 
+    border-top: 2px groove rgba(14, 153, 14, 0.425);
+    border-radius: 25px 25px 0px 0px;
+    padding: 10px;
+}
+
+img {
+    margin-top: 10px;
+    width: 30px;
+}
+img:hover {
+    background-color: rgba(14, 153, 14, 0.425);
+    border-radius: 50%;
+}
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Encode e Decode</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Mensagem Oculta</h1>
+    </header>
+    <div id="box">
+        <form action="">
+            <fieldset>
+                <legend class="l1"><b>Encode/Decode (CDC)</b></legend>
+                <h2>SAIBA MAIS!</h2>
+                <img class="img1" width="30" src="Imagens/simbolo-de-variante-triangular-preto-com-seta-para-baixo.png" alt="">
+                <video poster="Imagens/istockphoto-1041177734-170667a.jpg" autoplay loop controls width="536" src="Frames/CdC.mp4"></video>
+               
+                <!--BTN1 INICIO-->
+                <button onclick="cesarCode()" type="button" class="btn1">Codifique</button>
+                <input type="text" placeholder="Digite aqui!" id="texto1">
+                
+                <!--BTN2 INICIO-->
+                <button onclick="cesarDecode()" type="button" class="btn2">Decodifique</button>
+                <input type="text" placeholder="Digite aqui!" id="texto2"> <br>
+                
+                <!--BTN'S AREA DE OUTPUT-->
+                <div class="square">
+                <div class="ball"><textarea name="texto" id="text3" cols="30" rows="10"></textarea></div>
+                <div class="ball"><textarea name="texto" id="text4" cols="30" rows="10"></textarea></div>
+                </div>
+                </fieldset>
+        </form>
+    </div>
+    <div id="box2">
+        <form action="">
+            <fieldset>
+                <legend class="l2"><b>Encode/Decode (B64)</b></legend>
+                <h2>SAIBA MAIS!</h2>
+                <img class="img1" width="30" src="Imagens/simbolo-de-variante-triangular-preto-com-seta-para-baixo.png" alt="">
+                <video poster="Imagens/istockphoto-1041177734-170667a.jpg" width="536" src="Frames/Base64.mp4" controls autoplay loop ></video>
+              
+                 <!--BTN1 INICIO-->
+                <button onclick="encodeBase64()" type="button" class="btn1">Codifique</button>
+                <input type="text" placeholder="Digite aqui!" id="texto3">
+
+                  <!--BTN2 INICIO-->
+                <button onclick="decodeBase64()" type="button" class="btn2">Decodifique</button> 
+                <input type="text" placeholder="Digite aqui!" id="texto4"> 
+
+                <!--BTN'S AREA DE OUTPUT-->
+                <div class="square2">
+                <div class="square2"><textarea id="text1" name="texto" id="t2" cols="30" rows="10"></textarea></div>
+                <div class="square2"><textarea id="text2" name="texto" id="t2" cols="30" rows="10"></textarea></div>
+                </div> 
+            </fieldset>
+        </form>
+    </div>
+   
+    <script src="index.js"></script>
+    <div class="rodape">
+    Feito por Aslan Campos de oliveira - Todos os direitos reservados!
+    <div class="imgbox">
+        <a href="https://www.facebook.com/LanKroif"><img src="Imagens/Face transp.png" alt=""></a>
+        <a href="https://www.instagram.com/aslankroif/"><img src="Imagens/Insta transp.png" alt=""></a>
+        <a href="https://github.com/AslanDev28"><img src="Imagens/github-41-433309.png" alt=""></a>
+    </div>
+    </div>
+    
+
+    </div>
+
+</body>
+</html>
